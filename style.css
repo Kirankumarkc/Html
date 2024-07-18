@@ -1,0 +1,87 @@
+/* portfolio background image */
+
+.bgimage {
+    height: 100vh;
+    background: url('Portfolio.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.portfolio_title {
+    font-size: 4.5rem;
+}
+.portfolio_desc {
+    font-size: 2rem;
+}
+
+.portfolio-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    Left: 50%;
+    color: black;
+    transform: translate(-50%,-50%);
+}
+
+.image About Page {
+    width: 50%;
+}
+
+ /** services section */
+ 
+ .servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+ .servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+ }
+    
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+
+    color: green;
+}
+
+.servicesText:hover {
+    border: 1px solid green;
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+/** social media icon style**/
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover,
+.fa-instagram:hover {
+    color: green;
+
+}
+.fab {
+    color:  white;
+}
+
+#footer {
+    background-color: #000000;
+    text-align: center;
+
+}
+
+#about, #services , #porfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
